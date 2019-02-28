@@ -1,0 +1,467 @@
+header {
+  background-color: #f8f6f6; }
+
+.header__logo p {
+  font-family: "Vollkorn", serif;
+  font-size: 35px;
+  color: #696969; }
+
+.slider {
+  background-color: #353535; }
+
+.slider-item {
+  padding-top: 10rem;
+  color: #d6d5d5;
+  font-family: "Vollkorn", serif; }
+  .slider-item h1 {
+    font-size: 50px;
+    text-align: center; }
+  .slider-item h2 {
+    font-size: 30px;
+    margin-bottom: 10rem; }
+  .slider-item i {
+    margin-bottom: 1rem; }
+  .slider-item p {
+    font-size: 12px;
+    margin-bottom: 3rem; }
+
+.about__title, .works__title, .team__title, .blog__title, .plan__title, .contact__title {
+  padding-top: 5rem; }
+  .about__title h2, .works__title h2, .team__title h2, .blog__title h2, .plan__title h2, .contact__title h2 {
+    font-size: 48px;
+    font-family: "Vollkorn", serif;
+    color: #3d3d3d;
+    margin-bottom: 2rem; }
+    .about__title h2:after, .works__title h2:after, .team__title h2:after, .blog__title h2:after, .plan__title h2:after, .contact__title h2:after {
+      content: "";
+      width: 180px;
+      height: 3px;
+      background-color: #f15324;
+      display: block;
+      position: relative;
+      left: 30px; }
+  .about__title p, .works__title p, .team__title p, .blog__title p, .plan__title p, .contact__title p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #696969;
+    margin-bottom: 4rem; }
+
+.about__block {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 120px; }
+
+.about__col-container {
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 2rem; }
+  .about__col-container i {
+    font-size: 50px;
+    color: #f15324;
+    margin-bottom: 2rem; }
+  .about__col-container h4 {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #707070;
+    font-weight: bold; }
+  .about__col-container p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #988c8c; }
+
+.video__contant {
+  background-color: #171f23;
+  height: 430px; }
+
+.video__play {
+  height: 430px; }
+
+.video__asset {
+  background-image: url("../images/video.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 430px; }
+
+.video__opacity {
+  height: 430px;
+  background-color: #4a5052;
+  opacity: 0.7;
+  position: relative;
+  bottom: 430px;
+  text-align: center; }
+  .video__opacity i {
+    color: #f5f5f5;
+    font-size: 100px;
+    margin-top: 160px; }
+
+.video__contant h2 {
+  color: #e7e7e7;
+  margin-top: 80px;
+  margin-bottom: 20px; }
+.video__contant p {
+  color: #696969;
+  margin-bottom: 30px; }
+
+.works__title h2:after {
+  left: 50px; }
+
+.nav-item.active:after {
+  content: "";
+  width: 110px;
+  height: 1px;
+  background-color: #f15324;
+  display: block;
+  position: relative;
+  left: 10px; }
+
+.works__cell {
+  height: 175px;
+  background-color: #e64e40;
+  border: 1px solid #eb7267; }
+
+.clients {
+  background-color: #1c1c1c; }
+
+.clients__logo img {
+  width: 45px;
+  height: 50px; }
+.clients__logo p {
+  font-size: 33px;
+  color: #ececec;
+  font-family: "Vollkorn", serif; }
+
+.clients__slides {
+  margin: 0 auto; }
+
+.team__title h2:after {
+  left: 70px; }
+
+.team {
+  margin-bottom: 100px; }
+
+.team__members {
+  background-color: #ebebeb; }
+
+.team__skills {
+  background-color: #ebebeb; }
+
+.team__member {
+  text-align: center; }
+  .team__member h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3d3d3d; }
+  .team__member h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #696969;
+    margin-bottom: 30px; }
+  .team__member i {
+    color: #696969;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 100px; }
+
+.team__image {
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+  background-color: #ef6b50;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px; }
+
+.carousel-indicators li {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px; }
+
+.team__skills {
+  padding: 64px; }
+  .team__skills h4 {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #3d3d3d;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: bold; }
+  .team__skills p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #696969;
+    margin-bottom: 40px; }
+
+.team__skill p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #3d3d3d;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+.skills__progress_sketch {
+  display: flex;
+  width: 100%;
+  height: 1px;
+  margin-top: 10px; }
+  .skills__progress_sketch .skills__progress_red {
+    width: 90%;
+    background-color: #ef6b50; }
+  .skills__progress_sketch .skills__progress_grey {
+    width: 10%;
+    background-color: white; }
+
+.skills__progress_photoshop {
+  display: flex;
+  width: 100%;
+  height: 1px;
+  margin-top: 10px; }
+  .skills__progress_photoshop .skills__progress_red {
+    width: 88%;
+    background-color: #ef6b50; }
+  .skills__progress_photoshop .skills__progress_grey {
+    width: 12%;
+    background-color: white; }
+
+.skills__progress_illustrator {
+  display: flex;
+  width: 100%;
+  height: 1px;
+  margin-top: 10px; }
+  .skills__progress_illustrator .skills__progress_red {
+    width: 92%;
+    background-color: #ef6b50; }
+  .skills__progress_illustrator .skills__progress_grey {
+    width: 8%;
+    background-color: white; }
+
+.skills__progress_after {
+  display: flex;
+  width: 100%;
+  height: 1px;
+  margin-top: 10px; }
+  .skills__progress_after .skills__progress_red {
+    width: 98%;
+    background-color: #ef6b50; }
+  .skills__progress_after .skills__progress_grey {
+    width: 2%;
+    background-color: white; }
+
+.col-1 .skills__percent {
+  font-weight: lighter; }
+
+.features {
+  background-color: #171f23;
+  width: 100%; }
+  .features h1 {
+    font-size: 36px;
+    color: #f6f6f6;
+    font-family: "Roboto", sans-serif;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+    .features h1:after {
+      content: "";
+      width: 100px;
+      height: 2px;
+      background-color: #404040;
+      display: block;
+      position: relative;
+      left: 90px;
+      top: 10px; }
+
+.features__item {
+  text-align: center; }
+  .features__item i {
+    font-size: 50px;
+    color: #ef6b50;
+    margin-bottom: 30px; }
+  .features__item p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #9da0a2;
+    margin-bottom: 30px; }
+
+.col-2 .features__numbers {
+  font-size: 48px;
+  font-weight: lighter;
+  margin-bottom: 70px; }
+
+.blog__title h2:after {
+  left: 50px; }
+
+.blog__post1 {
+  width: 95%;
+  background-color: #ebebeb; }
+  .blog__post1 h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #5a5a5a; }
+  .blog__post1 p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #5a5a5a; }
+  .blog__post1:hover .blog__hidden-icons {
+    visibility: visible; }
+
+.blog__date i {
+  color: #5a5a5a;
+  font-size: 10px;
+  margin-right: 5px;
+  position: relative;
+  top: 2px; }
+.blog__date p {
+  color: #5a5a5a;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif; }
+
+.blog__icons i {
+  color: #5a5a5a;
+  font-size: 10px;
+  margin-right: 5px;
+  position: relative;
+  top: 2px; }
+.blog__icons p {
+  color: #5a5a5a;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px; }
+
+.blog__hidden-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ef6b50;
+  position: relative;
+  bottom: 140px;
+  left: 120px; }
+  .blog__hidden-circle i {
+    color: #f6d8d2; }
+  .blog__hidden-circle:hover {
+    background-color: #f6d8d2; }
+    .blog__hidden-circle:hover i {
+      color: #ef6b50; }
+
+.blog__hidden-icons {
+  display: none; }
+
+.plan {
+  width: 100%;
+  background-color: #171f23; }
+
+.plan__title h2 {
+  color: #f6f6f6; }
+  .plan__title h2:after {
+    left: 50px;
+    background-color: #404040;
+    height: 1px; }
+
+.plan__price {
+  background-color: #1f282c; }
+
+.plan__prices {
+  color: #fbefee; }
+
+.plan__heading {
+  background-color: #0e1316; }
+  .plan__heading p {
+    color: #fbefee;
+    background-color: #0e1316; }
+
+.plan__name {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: bold; }
+
+.plan__prices {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px !important;
+  box-sizing: border-box;
+  background-color: #1f282c; }
+  .plan__prices:hover {
+    border: 1px solid #ef6b50; }
+    .plan__prices:hover .plan__number {
+      color: #ef6b50; }
+
+.plan__content p {
+  font-size: 14px;
+  font-weight: lighter; }
+.plan__content .plan__number {
+  font-weight: bold;
+  font-size: 16px; }
+
+.plan__button {
+  background-color: #ef6b50;
+  border: none;
+  font-size: 14px; }
+  .plan__button:hover {
+    background-color: #ef6b50; }
+
+.contact__title h2:after {
+  left: 80px; }
+
+.contact__name, .contact__email, .contact__message {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+  outline: none;
+  color: #696969;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold; }
+
+.contact__star_red {
+  color: #ef6b50; }
+
+.contact__label {
+  color: #696969;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold; }
+
+.contact__button {
+  border-radius: 0;
+  background-color: #ef6b50;
+  border: none;
+  font-size: 14px; }
+
+.location {
+  background-color: #0c1215; }
+  .location p {
+    font-size: 24px;
+    font-weight: bold;
+    font: "Roboto", sans-serif;
+    color: #fbefee; }
+  .location i {
+    color: #ef6b50;
+    font-size: 24px;
+    position: relative;
+    top: 5px; }
+
+.footer {
+  background-color: #171f23;
+  color: #fbefee; }
+  .footer img {
+    height: 46px;
+    width: 30px; }
+  .footer h5 {
+    font-size: 24px;
+    font-family: "Vollkorn", serif; }
+  .footer p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif; }
+  .footer i {
+    margin-right: 10px; }
+
+@media (max-width: 576px) {
+  .slider-item h1 {
+    font-size: 25px; }
+  .slider-item h2 {
+    font-size: 20px; }
+
+  .video__contant h2 {
+    margin-top: 20px; } }
+
+/*# sourceMappingURL=styles.css.map */
